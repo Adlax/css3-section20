@@ -25,6 +25,10 @@ body {
 .flex-center-v {
     align-items: center;
 }
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
 .text-center {
     text-align: center;
 }
@@ -73,6 +77,7 @@ ul {
     margin: 0;
     cursor: pointer;
     padding: 0;
+    list-style: none;
 }
 
 button {
@@ -110,7 +115,12 @@ i:hover {
 }
 
 [class$="-xl"] {
-    width: 80%;
+    width: 89%;
+    margin: 20px auto;
+}
+
+[class$="-m"] {
+    width: 70%;
     margin: 20px auto;
 }
 
@@ -143,11 +153,19 @@ i:hover {
         width: 90%;
         margin: 20px auto;
     }
+    [class$="-m"] {
+        width: 80%;
+        margin: 20px auto;
+    }
 }
 
 @media screen and (max-width: 650px) {
     [class$="-xl"] {
         width: 95%;
+        margin: 20px auto;
+    }
+    [class$="-m"] {
+        width: 90%;
         margin: 20px auto;
     }
 }
