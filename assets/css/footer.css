@@ -43,3 +43,29 @@ ul li a {
 .footer-social-icons {
     margin: 20px 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .menu-lists-item h5 {
+        font-size: 1.2rem;
+    }
+
+    ul li a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .footer-menu-lists, .footer-social-icons {
+        flex-direction: column;
+    }
+    .menu-lists-item {
+        width: 90%;
+        text-align: center;
+    }
+    .social-icons ul {
+        justify-content: center;
+    }
+    .app-icons {
+        text-align: center;
+    }
+}

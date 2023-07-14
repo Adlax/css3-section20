@@ -148,24 +148,20 @@ i:hover {
     background-color: gray;
 }
 
+@media screen and (max-width: 1550px) {
+    [class$="-m"] {
+        width: 95%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     [class$="-xl"] {
         width: 90%;
-        margin: 20px auto;
-    }
-    [class$="-m"] {
-        width: 80%;
-        margin: 20px auto;
     }
 }
 
 @media screen and (max-width: 650px) {
     [class$="-xl"] {
         width: 95%;
-        margin: 20px auto;
-    }
-    [class$="-m"] {
-        width: 90%;
-        margin: 20px auto;
     }
 }
